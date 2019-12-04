@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PWFEAR-M3-00/static/css/main.5759ab58.chunk.css",
+    "main.js": "/PWFEAR-M3-00/static/js/main.3300f275.chunk.js",
+    "main.js.map": "/PWFEAR-M3-00/static/js/main.3300f275.chunk.js.map",
+    "runtime-main.js": "/PWFEAR-M3-00/static/js/runtime-main.08327e05.js",
+    "runtime-main.js.map": "/PWFEAR-M3-00/static/js/runtime-main.08327e05.js.map",
+    "static/js/2.f0368ba5.chunk.js": "/PWFEAR-M3-00/static/js/2.f0368ba5.chunk.js",
+    "static/js/2.f0368ba5.chunk.js.map": "/PWFEAR-M3-00/static/js/2.f0368ba5.chunk.js.map",
+    "index.html": "/PWFEAR-M3-00/index.html",
+    "precache-manifest.7e8eedb2185d508d33fec9ffed5ddd18.js": "/PWFEAR-M3-00/precache-manifest.7e8eedb2185d508d33fec9ffed5ddd18.js",
+    "service-worker.js": "/PWFEAR-M3-00/service-worker.js",
+    "static/css/main.5759ab58.chunk.css.map": "/PWFEAR-M3-00/static/css/main.5759ab58.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08327e05.js",
+    "static/js/2.f0368ba5.chunk.js",
+    "static/css/main.5759ab58.chunk.css",
+    "static/js/main.3300f275.chunk.js"
+  ]
+}
