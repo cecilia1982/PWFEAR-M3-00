@@ -7,6 +7,11 @@ import Mapa from "./components/Mapa";
 import Video from "./components/Video";
 import Gondola from "./components/Gondola";
 
+//Helpers
+import AJAX from "./helpers/AJAX";
+
+const api = new AJAX();
+
 const links = [
   {
     url: "https://reactjs.org",
@@ -37,11 +42,15 @@ class App extends React.Component {
     /* DESAFIO IV: */
 
     //fetch("OBTENCION").then(CONVERSION - lo quiero convertir a json).then(UTILIZACION)
-    fetch("https://api.myjson.com/bins/1giaf3")
-      .then(rta => rta.json())
-      .then(data => {
-        this.setState({ productos: data, isLoaded: true });
-      });
+
+    //Opcion 1 metodo then()
+    api.getData("https://api.myjson.com/bins/1giaf3").then(data => {
+      this.setState({ productos: data, isLoaded: true });
+    });
+
+    //Opcion 2 funcion anonima asincronica (FAA) y lago mas...
+    // let data = async function() {
+    //   return Promise.resolve(api.getData("https://api.myjson.com/bins/1giaf3"));
   }
 
   render() {
