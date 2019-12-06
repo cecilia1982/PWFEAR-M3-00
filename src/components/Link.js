@@ -1,11 +1,14 @@
-import React from 'react'
-import './Link.css'
+import React from "react";
+import "./Link.css";
+import { Button } from "reactstrap";
 
 class Link extends React.Component {
-
-  render(){
-    return <a className="App-link" href={this.props.url} target={this.props.blank ? "_blank" : "_self"} rel="noopener noreferrer">{this.props.text}</a>
+  render() {
+    return (
+      <Button outline color="success" className="mx-3">
+        {this.props.text}
+      </Button>
+    );
   }
-
 }
-export default Link
+export default Link;
